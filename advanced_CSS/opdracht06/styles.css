@@ -1,0 +1,23 @@
+.batman{
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: save-gotham;
+    animation-duration: 2.5s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-out
+  }
+  
+  .joker{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  
+  @keyframes save-gotham{
+   from{
+    transform:0
+   }
+   to{
+      transform: rotate(90deg)  scale(8.6) translate(60%, -225%)}
+   }

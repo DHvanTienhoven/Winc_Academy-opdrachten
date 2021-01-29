@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 0.5em;
+  border: solid 3px darkred;
+  background: red;
+  max-width: 40vw;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+ul{
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+
+.checkbox{
+  margin-right: 1em;
+}
+
+li{
+  list-style: none;
+  padding:1em;
+  border-bottom:  2px solid lightgrey;
+  margin-inline-start: 2em;
+  margin-inline-end: 2em;
+  margin-bottom: 0.5em
+}
+

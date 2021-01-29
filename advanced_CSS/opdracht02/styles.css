@@ -1,0 +1,55 @@
+nav ul{ 
+    color: white;
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+    padding:0
+}
+
+a {
+    color: white;
+}
+
+a:visited{
+    color: white
+}
+
+a:hover{
+    color: lightblue
+}
+
+li+li{
+    padding-left: 40px
+}
+
+ul{
+    background-color:darkblue;
+    
+}
+
+.current-page{
+    background-color: #adc3d1
+}
+
+input:active{
+    border: solid 4px aqua
+}
+
+.a > a:hover {
+    color:lightblue;
+    font-weight:bold
+}
+
+.b > a:active{
+    color: red;
+    font-style: italic;
+}
+
+.c > a:visited{
+    color: goldenrod
+}
+
+.d > input:focus{
+    color: green;
+    font-size: 20px
+}

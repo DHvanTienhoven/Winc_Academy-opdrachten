@@ -1,0 +1,1 @@
+CSS Flexbox is een model om de items binnen een box op je pagina te rangschikken. Je kunt het gebruiken om items(content) ten opzichte van elkaar te verplaatsen langs een horizontale of een verticale as. Flexbox is flexibel en past zich aan aan de beschikbare ruimte.

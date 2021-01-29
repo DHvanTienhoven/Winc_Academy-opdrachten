@@ -1,0 +1,34 @@
+body {line-height: 1.8em; 
+    background-color: #41444B; 
+    font-family: Arial, Helvetica, sans-serif;
+    }
+header {border: solid #F6F4E6;
+        color: #FDDB3A; 
+        font-size: 30px;
+        margin: 4rem 2.5rem 1.5rem;
+        padding: 0.5rem 2rem;
+        }
+main {border: solid orangered;
+    color: #F6F4E6;
+    margin: 1.5rem 2.5rem;
+    padding: 0.5rem 2rem}
+footer {border: solid #FDDB3A;
+        line-height: 2.5em;
+        margin: 1.5rem 2.5rem 4rem;
+        padding: 0.5rem 2rem}
+h2 {font-size: 18px}
+.link {color: #FDDB3A;
+    	font-style: normal}
+.black-border {border: 3px dotted #FDDB3A;
+                padding:0.5rem 2rem}
+
+div {width: 400px;
+    margin: 0 auto;}
+img {width: 400px;}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+      }
+nav li {display: inline;
+        padding: 12px}
