@@ -7,3 +7,4 @@ __human_name__ = 'while'
 # It is not run if you import this file as a module.
 if __name__ == '__main__':
     print(random_koala_fact())
+

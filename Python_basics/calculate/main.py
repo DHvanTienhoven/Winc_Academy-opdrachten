@@ -28,6 +28,6 @@ print(sum_total)
 
 discount_percentage = 30
 
-discounted_sum_total = sum_total - sum_total * discount_percentage/100
+discounted_sum_total = sum_total - sum_total/100 * discount_percentage
 
-print(discounted_sum_total)
+print(str(discounted_sum_total) +'0')
