@@ -10,28 +10,20 @@ def greet(name, greeting_template='Hello, <name>!'):
 
 
 def force(mass, body='earth'):
-    if body == 'earth':
-        return mass * 9.8
-    if body == 'sun':
-        return mass * 274
-    if body == 'jupiter':
-        return mass * 24.9
-    if body == 'neptune':
-        return mass * 11.2
-    if body == 'saturn':
-        return mass * 10.4
-    if body == 'uranus':
-        return mass * 8.9
-    if body == 'venus':
-        return mass * 8.9
-    if body == 'mars':
-        return mass * 3.7
-    if body == 'mercury':
-        return mass * 3.7
-    if body == 'moon':
-        return mass * 1.6
-    if body == 'pluto':
-        return mass * 0.6
+    gravity_on_body = {
+        'sun': 274,
+        'jupiter': 24.9,
+        'neptune': 11.2,
+        'saturn': 10.4,
+        'earth': 9.8,
+        'uranus': 8.9,
+        'venus': 8.9,
+        'mars': 3.7,
+        'mercury': 3.7,
+        'moon': 1.6,
+        'pluto': 0.6
+    }
+    return mass * gravity_on_body[body]
 
 
 def pull(m1, m2, d):
