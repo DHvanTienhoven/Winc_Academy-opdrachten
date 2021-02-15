@@ -1,5 +1,4 @@
 # Do not modify these lines
-import os
 __winc_id__ = '534d85ea1ab14924a91f9eccf6f3f30d'
 __human_name__ = 'errors'
 
@@ -7,9 +6,7 @@ __human_name__ = 'errors'
 # Your own code for testing your functions here (remove `pass`)
 def main():
     foo = list(range(10))
-    print(get_item_from_list(foo, 9),
-        get_item_from_list(foo, -1),
-        get_item_from_list(foo, 10))
+    print(get_item_from_list(foo, 9), get_item_from_list(foo, -1), get_item_from_list(foo, 10))
 
 
 """Change the three functions below from Look Before You Leap (LBYL) to Easier
@@ -34,9 +31,9 @@ def read_file(filename):
 
 
 # Returns item at `index` from list `l` if possible, otherwise returns None
-def get_item_from_list(l, index):
+def get_item_from_list(list, index):
     try:
-        return l[index]
+        return list[index]
     except IndexError:
         return None
 
