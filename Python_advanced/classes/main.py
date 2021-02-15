@@ -24,9 +24,9 @@ class Player():
 
     def strength(self):
         if self.speed >= self.endurance and self.speed >= self.accuracy:
-            return {'speed', self.speed}
+            return ('speed', self.speed)
         elif self.endurance >= self.accuracy:
-            return {'endurance', self.endurance}
+            return ('endurance', self.endurance)
         else:
             return ('accuracy', self.accuracy)
 

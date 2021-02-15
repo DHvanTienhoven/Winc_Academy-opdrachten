@@ -2,7 +2,7 @@ from main import get_none, flatten_dict
 
 
 def test_get_none():
-    assert get_none() == None
+    assert get_none() is None
 
 
 def test_flatten_dict():
