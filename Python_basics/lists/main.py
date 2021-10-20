@@ -4,8 +4,10 @@ __human_name__ = 'lists'
 
 # Add your code after this line
 
+
 def alphabetical_order(movie_list):
     return sorted(movie_list)
+
 
 def won_golden_globe(movie_name):
     if(movie_name.lower().find('jaws') == -1 and
@@ -15,6 +17,7 @@ def won_golden_globe(movie_name):
         return False
     else:
         return True
+
 
 def remove_toto_albums(movie_list):
     if('Fahrenheit' in movie_list):
